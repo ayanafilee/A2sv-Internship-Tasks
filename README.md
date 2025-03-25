@@ -15,7 +15,7 @@ A modern and responsive contact form built with **React**, **TypeScript**, and *
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/ayanafilee/A2sv-Internship-Tasks.git
+   git clone https://github.com/ayanafilee/A2sv-Internship-Tasks/tree/task5
    ```
 
 2. Checkout to task5 branch
@@ -42,20 +42,18 @@ A modern and responsive contact form built with **React**, **TypeScript**, and *
 
 - **Submit the form** and check for any validation errors.
   
-  **Screenshot: Form Filled (Valid)**  
-![Image](https://github.com/user-attachments/assets/662a5801-c8a0-4541-abb3-74c11648f802)
+  **Screenshot: Form **
+  ![Image](https://github.com/user-attachments/assets/19625f02-89e3-4cc4-a263-05cdd5fd1ec0)
+
 
 - After a successful submission, the form will clear.
   
-  **Screenshot: Form After Submission**  
-  ![Form After Submission](screenshot-submission.png)
 
 - **Error Example**:  
   If there are errors in the form, it will show validation messages below each field.  
 
   **Screenshot: Form with Errors**  
-![Image](https://github.com/user-attachments/assets/19625f02-89e3-4cc4-a263-05cdd5fd1ec0)
-
+![Image](https://github.com/user-attachments/assets/662a5801-c8a0-4541-abb3-74c11648f802)
 ## Technologies
 
 - **React 18**
