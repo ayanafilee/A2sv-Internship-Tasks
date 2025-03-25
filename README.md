@@ -1,6 +1,4 @@
-Great! You can include screenshots of the usage and error messages in your README by adding image tags with appropriate paths to your screenshots. Here's how you can modify your README:
 
-```markdown
 # Contact Form Application
 
 A modern and responsive contact form built with **React**, **TypeScript**, and **Vite**. Includes form validation and a clean user interface.
