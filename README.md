@@ -1,54 +1,113 @@
-# React + TypeScript + Vite
+# Contact Form Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive contact form built with React, TypeScript, and Vite. Features robust form validation and a clean user interface.
 
-Currently, two official plugins are available:
+![Form Preview](screenshot.png) <!-- Add your screenshot here -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Form Validation**
+  - Real-time validation for all fields
+  - Email format verification
+  - Instant error messaging
+- **Modern UI**
+  - Clean, minimalist design
+  - Responsive layout for all screen sizes
+  - Smooth animations and transitions
+- **Technical Highlights**
+  - Type-safe implementation
+  - Efficient state management with react-hook-form
+  - Optimized performance
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Installation
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ayanafilee/A2sv-Internship-Tasks.git
+Checkout to task5 branch
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+bash
+Copy
+Edit
+git checkout task5
+Install dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+bash
+Copy
+Edit
+npm install
+Run the development server
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+bash
+Copy
+Edit
+npm run dev
+Usage
+Fill in the form fields:
+
+Name: Required (2+ characters)
+
+Email: Valid email format required
+
+Message: Required (10+ characters)
+
+Submit the form
+
+See validation errors (if any) below each field
+
+Successful submissions will clear the form
+
+Technologies
+Core
+
+React 18
+
+TypeScript 5
+
+Vite 4
+
+Form Handling
+
+react-hook-form 7
+
+Styling
+
+Modern CSS
+
+Responsive design principles
+
+CSS media queries
+
+Validation Rules
+Field	Rules
+Name	Required (Minimum 2 characters)
+Email	Required, Valid email format
+Message	Required (Minimum 10 characters)
+Contributing
+Fork the project
+
+Create your feature branch
+
+bash
+Copy
+Edit
+git checkout -b feature/amazing-feature
+Commit your changes
+
+bash
+Copy
+Edit
+git commit -m 'Add some amazing feature'
+Push to the branch
+
+bash
+Copy
+Edit
+git push origin feature/amazing-feature
+Open a Pull Request
+
+pgsql
+Copy
+Edit
+
+Make sure to update your repository with this content.
