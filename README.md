@@ -36,15 +36,15 @@ A feature-rich todo list application built with React and TypeScript, offering a
 ## Installation
 
 # Clone the repository:
-bash
-git clone https://github.com/your-username/todo-list-app.git
-cd todo-list-app
-Install dependencies:
+-bash
+-git clone  https://github.com/ayanafilee/A2sv-Internship-Tasks
+-cd todo-list-app
+-Install dependencies:
 
-bash
-Copy
-npm install
-Start the development server:
+-bash
+-Copy
+-npm install
+-Start the development server:
 
 bash
 Copy
