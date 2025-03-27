@@ -1,54 +1,112 @@
-# React + TypeScript + Vite
+# Enhanced React Todo List Application
+A feature-rich todo list application built with React and TypeScript, offering advanced task management capabilities with persistent local storage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- **CRUD Operations**:
+  - ✅ Create todos with title, description, due date, priority, and category
+  - 📝 Edit existing todos
+  - 🗑️ Delete todos
+  - ☑️ Mark todos as complete/incomplete
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Advanced Features**:
+  - 🔍 Search todos by title/description
+  - 🎚️ Filter by status (all/complete/incomplete), category, and priority
+  - 📅 Sort by due date or priority
+  - 📊 Statistics dashboard (total, completed, overdue tasks)
+  - 🎨 Priority-based color coding (high/medium/low)
+  - ⏰ Overdue task indicators
+  - 📦 Local storage persistence
 
-## Expanding the ESLint configuration
+- **UI/UX**:
+  - 📱 Responsive design
+  - 🖥️ Clean and intuitive interface
+  - 🎮 Interactive form validation
+  - 🏷️ Category tags
+  - 📅 Date formatting and validation
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Frontend**: React + TypeScript
+- **Styling**: CSS3
+- **ID Generation**: UUID
+- **State Management**: React Hooks
+- **Persistence**: Browser Local Storage
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Clone the repository:
+bash
+git clone https://github.com/your-username/todo-list-app.git
+cd todo-list-app
+Install dependencies:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+bash
+Copy
+npm install
+Start the development server:
+
+bash
+Copy
+npm start
+Usage
+Add a Todo:
+
+Fill in the title (required)
+
+Add optional description, due date, category
+
+Select priority level
+
+Click "Add Todo"
+
+##Manage Todos:
+
+✔️ Checkbox: Mark complete/incomplete
+
+✏️ Edit: Modify todo details
+
+🗑️ Delete: Remove todo permanently
+
+##Filter/Sort:
+
+Use dropdowns to filter by status/category/priority
+
+Sort todos by due date or priority
+
+Search using the search bar
+
+##Statistics:
+
+Track total, completed, and overdue tasks in real-time
+
+Code Structure
+bash
+Copy
+src/
+├── App.tsx            # Main application component
+├── App.test.tsx       # Component tests
+├── TodoApp.css        # Styling
+├── index.tsx          # Entry point
+└── react-app-env.d.ts # TypeScript declarations
+Contributing
+Contributions are welcome! Please follow these steps:
+
+##Fork the repository
+
+Create your feature branch:
+
+bash
+Copy
+git checkout -b feature/your-feature
+Commit your changes:
+
+bash
+Copy
+git commit -m 'Add some feature'
+Push to the branch:
+
+bash
+Copy
+git push origin feature/your-feature
+Open a pull request
