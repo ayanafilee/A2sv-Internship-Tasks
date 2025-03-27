@@ -1,6 +1,7 @@
 # Enhanced React Todo List Application
 A feature-rich todo list application built with React and TypeScript, offering advanced task management capabilities with persistent local storage.
 
+
 ## Features
 
 - **CRUD Operations**:
@@ -24,6 +25,13 @@ A feature-rich todo list application built with React and TypeScript, offering a
   - 🎮 Interactive form validation
   - 🏷️ Category tags
   - 📅 Date formatting and validation
+##Screenshot
+### when the page first loads:
+![Image](https://github.com/user-attachments/assets/cf0ce82a-1eeb-400b-8c97-1ac697537de3)
+###when the user enters a date and the app shows the calendar:
+![Image](https://github.com/user-attachments/assets/519ddf11-ade8-4cba-846f-6a5c1964198a)
+###when the app shows available tasks:
+![Image](https://github.com/user-attachments/assets/b0c8e0c3-4444-4ec7-8f26-accac388e3f4)
 
 ## Tech Stack
 
