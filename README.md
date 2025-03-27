@@ -35,78 +35,66 @@ A feature-rich todo list application built with React and TypeScript, offering a
 
 ## Installation
 
+Here's the code you can directly copy and paste:
+
+```bash
 # Clone the repository:
--bash
--git clone  https://github.com/ayanafilee/A2sv-Internship-Tasks
--cd todo-list-app
--Install dependencies:
+git clone https://github.com/ayanafilee/A2sv-Internship-Tasks
+cd todo-list-app
 
--bash
--Copy
--npm install
--Start the development server:
+# Install dependencies:
+npm install
 
-bash
-Copy
+# Start the development server:
 npm start
-Usage
-Add a Todo:
+```
 
-Fill in the title (required)
+### Usage
 
-Add optional description, due date, category
+#### Add a Todo:
+- Fill in the title (required)
+- Add optional description, due date, category
+- Select priority level
+- Click "Add Todo"
 
-Select priority level
+#### Manage Todos:
+- ✔️ Checkbox: Mark complete/incomplete
+- ✏️ Edit: Modify todo details
+- 🗑️ Delete: Remove todo permanently
 
-Click "Add Todo"
+#### Filter/Sort:
+- Use dropdowns to filter by status/category/priority
+- Sort todos by due date or priority
+- Search using the search bar
 
-##Manage Todos:
+#### Statistics:
+- Track total, completed, and overdue tasks in real-time
 
-✔️ Checkbox: Mark complete/incomplete
-
-✏️ Edit: Modify todo details
-
-🗑️ Delete: Remove todo permanently
-
-##Filter/Sort:
-
-Use dropdowns to filter by status/category/priority
-
-Sort todos by due date or priority
-
-Search using the search bar
-
-##Statistics:
-
-Track total, completed, and overdue tasks in real-time
-
-Code Structure
-bash
-Copy
+### Code Structure:
+```
 src/
-├── App.tsx            # Main application component
-├── App.test.tsx       # Component tests
-├── TodoApp.css        # Styling
-├── index.tsx          # Entry point
-└── react-app-env.d.ts # TypeScript declarations
-Contributing
+├── App.tsx             # Main application component
+├── App.test.tsx        # Component tests
+├── TodoApp.css         # Styling
+├── index.tsx           # Entry point
+└── react-app-env.d.ts  # TypeScript declarations
+```
+
+### Contributing
 Contributions are welcome! Please follow these steps:
 
-##Fork the repository
-
-Create your feature branch:
-
-bash
-Copy
-git checkout -b feature/your-feature
-Commit your changes:
-
-bash
-Copy
-git commit -m 'Add some feature'
-Push to the branch:
-
-bash
-Copy
-git push origin feature/your-feature
-Open a pull request
+1. Fork the repository
+2. Create your feature branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add some feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature
+   ```
+5. Open a pull request
+```
