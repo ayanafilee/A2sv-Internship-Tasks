@@ -56,7 +56,7 @@ A modern platform for browsing job opportunities, featuring a clean interface an
 
 ### 1️⃣ Clone Repository  
 ```bash
-git clone https://github.com/your-username/job-board.git
+git clone https://github.com/ayanafilee/A2sv-Internship-Tasks/tree/task6
 ```
 
 ### 2️⃣ Install Dependencies  
