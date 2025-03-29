@@ -2,7 +2,19 @@
 
 A modern platform for browsing job opportunities, featuring a clean interface and detailed job postings. Built with **Next.js** and **Tailwind CSS**.
 
-![Job Board Preview](public/screenshot.png) <!-- Add your screenshot here -->
+## Visual Walkthrough 🖼️
+
+### 1. Jobs Overview Interface
+![List View](screenshot1.png)  
+*Main dashboard showing multiple job listings with tags and company logos*
+
+### 2. Individual Job Preview
+![Job Card](screenshot2.png)  
+*Detailed view of a single job posting with key requirements and company info*
+
+### 3. Full Job Details
+![Detail View](screenshot3.png)  
+*Complete job description view showing responsibilities, timeline, and application requirements*
 
 ## 🔗 Live Demo  
 [🌍 Explore Live Demo](https://your-deployment-link.com) <!-- Add your deployment link -->
