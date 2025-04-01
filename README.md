@@ -1,6 +1,3 @@
-Here's your README with GitHub style markdown formatting:
-
-````markdown
 # 🚀 Job Board Platform
 
 A modern platform for browsing job opportunities, featuring a clean interface and detailed job postings. Built with **React** and **Tailwind CSS**.
