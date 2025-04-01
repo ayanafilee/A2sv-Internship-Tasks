@@ -63,7 +63,7 @@ _Complete job description view showing responsibilities, timeline, and applicati
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone -b task6 https://github.com/ayanafilee/A2sv-Internship-Tasks.git
+git clone https://github.com/ayanafilee/A2sv-Internship-Tasks/tree/task7
 cd A2sv-Internship-Tasks
 ```
 
@@ -153,7 +153,4 @@ git push origin feature/your-feature-name
 
 💙 Made with passion. Contributions are welcome! 🚀
 
-```
 
-This formatting follows GitHub markdown conventions, complete with headers, bullet points, code blocks, and images. Let me know if you need any further modifications!
-```
