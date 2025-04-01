@@ -5,21 +5,24 @@ A modern platform for browsing job opportunities, featuring a clean interface an
 ## Visual Walkthrough 🖼️
 
 ### 1. Jobs Overview Interface
+![Image](https://github.com/user-attachments/assets/4ef28ad4-4f2f-4bae-a711-b36c49202ad6)
 
-![Job Overview](https://github.com/user-attachments/assets/6252097f-18af-4f57-88f0-f0344606c34a)
+
 
 _Main dashboard showing multiple job listings with tags and company logos._
 
 ### 2. Individual Job Preview
-
-![Job Preview](https://github.com/user-attachments/assets/3ab9465f-e049-472b-aac6-b0ae7861b6a6)
+![Image](https://github.com/user-attachments/assets/caf72418-a61b-427c-b312-a6c828293d61)
 
 _Detailed view of a single job posting with key requirements and company info._
 
 ### 3. Full Job Details
+![Image](https://github.com/user-attachments/assets/0b67297f-5997-4d98-ac99-a8116c162341)
 
-![Full Job Details](https://github.com/user-attachments/assets/56d98038-4b4b-4521-96f9-ad80bce5432d)
+### 4. Error handling message
 
+### 5. while Loading
+![Image](https://github.com/user-attachments/assets/642db72d-5ca2-4177-a2ba-3c6458e63007)
 _Complete job description view showing responsibilities, timeline, and application requirements._
 
 ---
