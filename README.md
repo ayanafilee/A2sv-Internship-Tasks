@@ -64,7 +64,7 @@ _Complete job description view showing responsibilities, timeline, and applicati
 
 ```bash
 git clone https://github.com/ayanafilee/A2sv-Internship-Tasks/tree/task7
-cd A2sv-Internship-Tasks
+cd Tasks7
 ```
 
 ### 2️⃣ Install Dependencies
@@ -77,6 +77,11 @@ npm install
 
 ```bash
 npm start
+```
+### 3️⃣ Run Application
+
+```bash
+npm run dev
 ```
 
 ## 📂 Project Structure
