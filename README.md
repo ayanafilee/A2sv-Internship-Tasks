@@ -11,7 +11,7 @@ A modern platform for browsing job opportunities, featuring a clean interface an
 _Main dashboard showing multiple job listings with tags and company logos._
 
 ### 2. Individual Job Preview
-
+![Image](https://github.com/user-attachments/assets/1d598567-f397-4b74-adfa-9d762150b424)
 
 _Detailed view of a single job posting with key requirements and company info._
 
@@ -66,7 +66,6 @@ _Complete job description view showing responsibilities, timeline, and applicati
 git clone -b task6 https://github.com/ayanafilee/A2sv-Internship-Tasks.git
 cd A2sv-Internship-Tasks
 ```
-````
 
 ### 2️⃣ Install Dependencies
 
