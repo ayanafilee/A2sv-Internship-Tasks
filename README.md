@@ -2,29 +2,6 @@
 
 A modern platform for browsing job opportunities, featuring a clean interface and detailed job postings. Built with **React** and **Tailwind CSS**.
 
-## Visual Walkthrough 🖼️
-
-### 1. Jobs Overview Interface
-![Image](https://github.com/user-attachments/assets/0b67297f-5997-4d98-ac99-a8116c162341)
-
-
-_Main dashboard showing multiple job listings with tags and company logos._
-
-### 2. Individual Job Preview
-![Image](https://github.com/user-attachments/assets/1d598567-f397-4b74-adfa-9d762150b424)
-
-_Detailed view of a single job posting with key requirements and company info._
-
-### 3. Full Job Details
-![Image](https://github.com/user-attachments/assets/642db72d-5ca2-4177-a2ba-3c6458e63007)
-
-### 4. Error  message
-![Image](https://github.com/user-attachments/assets/4ef28ad4-4f2f-4bae-a711-b36c49202ad6)
-
-### 5. while Loading
-![Image](https://github.com/user-attachments/assets/caf72418-a61b-427c-b312-a6c828293d61)
-
-_Complete job description view showing responsibilities, timeline, and application requirements._
 
 ---
 
